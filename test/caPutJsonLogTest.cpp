@@ -1,15 +1,3 @@
-/*************************************************************************\
-* Copyright (c) 2010 Brookhaven Science Associates, as Operator of
-*     Brookhaven National Laboratory.
-* Copyright (c) 2010 UChicago Argonne LLC, as Operator of Argonne
-*     National Laboratory.
-* EPICS BASE is distributed subject to a Software License Agreement found
-* in file LICENSE that is included with this distribution.
-\*************************************************************************/
-/*
- *      Author: Michael Davidsaver
- *      Date:   2010-09-24
- */
 
 // Standard library includes
 #include <string>
@@ -199,7 +187,6 @@ void runTests(void *arg) {
     epicsThreadSleep(2);
     v = 99;
     writeVal("ao", DBR_DOUBLE, 1, &v);
-
 
     //Destroy test thread CA context
     ca_context_destroy();
