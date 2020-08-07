@@ -1,0 +1,5 @@
+
+record(ao, "ao") {
+    field(DESC, "test AO record")
+    field(VAL,  "0")
+}
